@@ -1,0 +1,220 @@
+* {
+    font-family: "微软雅黑", Arial;
+}
+
+/*媒体查询，当尺寸小与767.98时应用*/
+@media (max-width: 767.98px) {
+    section#html-area div.col-md-6:last-child,
+    section#download div.col-md-6:last-child,
+    section#bootstrap-area div.col-md-6:last-child {
+        margin-top: 20px;
+    }
+
+}
+
+/*导航*/
+a.brand-style {
+    font-size: 28px;
+    color: #40d2b1 !important;
+    font-weight: bolder;
+}
+
+a.brand-style:hover {
+    color: black !important;
+}
+
+a.menu-style {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+button.menu-btn {
+    width: 45px;
+    height: 30px;
+    padding: 0px;
+}
+
+button.menu-btn:hover {
+    background-color: #46E8C5;
+}
+
+span.menu-icon {
+    width: 25px;
+    height: 25px;
+}
+
+/* width: 100%;
+    height: 100%;
+    这样才能居中*/
+section#ad-area {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px;
+    background: #2C433D;
+    color: white;
+}
+
+section#ad-area h1 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+section#ad-area p {
+    text-align: center;
+    font-size: 14px;
+}
+
+/*分类区域*/
+section#category-area {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+section#category-area a {
+    width: 250px;
+    display: inline-block;
+    color: #000;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+
+section#category-area a h3 {
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+section#category-area a p {
+    font-size: 14px;
+}
+
+section#category-area a:hover {
+    background-color: #F1F1F1;
+    box-shadow: 1px 1px 4px #cccccc;
+}
+
+/* width: 100%;
+    height: 100%;
+    这样才能居中*/
+section#html-area {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px;
+    background-color: #F8F8F8;
+}
+
+section#html-area h2, section#bootstrap-area h2 {
+    font-weight: bolder;
+}
+
+section#html-area p, section#bootstrap-area p {
+    font-size: 14px;
+}
+
+/*t弹性盒模型 垂直居中*/
+/*
+section#html-area #wrap{
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: center;
+}*/
+section#bootstrap-area .icon,section#html-area .icon {
+    color: #ffffff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #41D2B1;
+    border-radius: 50%;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+section#bootstrap-area {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+section#course-area {
+    background-color: #F8F8F8;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+}
+
+section#course-area div.new-course {
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+section#course-area div.course {
+    width: 275px;
+    height: 260px;
+    background-color: #fff;
+    text-align: center;
+    margin: 10px auto; /*居中*/
+}
+
+section#course-area div.course a {
+    margin-top: 8%;
+}
+
+section#download {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+}
+
+section#download h3,section#link-area h3 {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+section#download p,section#link-area address p {
+    font-size: 14px;
+}
+section#link-area{
+    width: 100%;
+    height: 100%;
+    padding:50px 0;
+    background-color: #F8F8F8;
+}
+section#link-area div .icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+section#link-area{
+    background: url("../img/contact-bg.png") no-repeat;
+    background-size:cover;
+    -webkit-background-size: cover;
+    position: relative;
+    color: #ffffff;
+}
+section#link-area:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.foot{
+    text-align: center;
+    font-size:14px;
+}
+.foot p {
+    margin: 0;
+    line-height: 37px;
+}
